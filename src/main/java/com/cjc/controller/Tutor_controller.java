@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cjc.Model.Tutor;
 import com.cjc.Service.TutorService;
 
-@Controller
+@RestController
 @RequestMapping("/tutorservice")
 public class Tutor_controller {
 
